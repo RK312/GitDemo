@@ -1,0 +1,74 @@
+https://mkclgit.mkcl.org/dashboard/projects
+
+1)To downlaod the git bash for windows
+
+	https://git-scm.com/
+
+2) To set the repository locally
+
+	git init	
+
+3) To check the username
+
+	git config --global user.name
+
+4)To check the useremail
+
+	git config --global user.email
+
+5)To set the username
+
+	 git config --global user.name "Shrikant Suryawanshi"
+
+6)To set the useremail
+
+	git config --global user.email "shrikants@mkcl.org"
+
+7) To clear the screen
+
+	clear
+
+8) To check the origin
+
+	git remote -v
+
+9) To set the origin 
+
+       git remote add origin https://mkclgit
+     
+
+10) Get latest project or changes
+
+	git pull origin 
+git pull origin dev-branch
+
+11) Switch to new local branch(It will create the new branch if it is not already present)
+
+	git checkout -b Medium_of_Instruction_Disable
+	git checkout -b dev-branch
+
+12) To check the status for any pending push or commit
+
+	git status
+
+13) To add the file to the staging area locally
+
+	git add demo.txt
+	
+	git add *
+
+14) To do the commit in the local repository
+
+	git commit -m "Medium_of_Instruction_Disable Commit"
+
+15) To push the change to remote repository
+
+	git push origin Medium_of_Instruction_Disable
+
+
+
+
+
+
+
+
